@@ -23,6 +23,26 @@ global:
   serviceAccountName: oms-dev-sa
   customerOverrides: 
   - yfs.yfs.searchIndex.rootDirectory=/shared/SearchIndex
+  - yfs.yfs.searchIndex.cacheRefreshInterval=2
+  - yfs.Kroger.OMS.CREATE.ORDER.IN=OMS.CREATE.ORDER.IN
+  - yfs.Kroger.OMS.SCHEDULE.ORDER.AGENT=OMS.SCHEDULE.ORDER.AGENT
+  - yfs.Kroger.OMS.RELEASE.ORDER.AGENT=OMS.RELEASE.ORDER.AGENT
+  - yfs.Kroger.OMS.CONSOLIDATE.SHIPMENT.AGENT=OMS.CONSOLIDATE.SHIPMENT.AGENT
+  - yfs.MQ_QCF=AGENT_QCF
+  - yfs.MQ_PROVIDER_URL=file:/opt/ssfs
+  - yfs.yfs.flow.override.icf=com.sun.jndi.fscontext.RefFSContextFactory
+  - yfs.yfs.flow.override.providerurl=file:///opt/ssfs
+  - yfs.yfs.flow.override.qcf=AGENT_QCF
+  - yfs.yfs.agent.override.icf=com.sun.jndi.fscontext.RefFSContextFactory
+  - yfs.yfs.agent.override.qcf=AGENT_QCF
+  - yfs.yfs.agent.override.providerurl=file:///opt/ssfs
+  - yfs.GENERIC_CONTEXT_FACTORY=com.sun.jndi.fscontext.RefFSContextFactory
+  - ##Java Web Start
+  - yfs.yfs.configurator.usewebstart=true
+  - yfs.yantra.jms.receive.timeout=2000
+  - yfs.httpOnlyCookie=false 
+  - yfs.api.configuration.dump.mode=NONE 
+  - yfs.enable.jdbc.tracking=true
   envs: []
   # Example:
   # envs:
@@ -189,10 +209,15 @@ omserver:
   deployHealthMonitor: true
   servers:
   - group: "Default Server"
-    name: [""]
-#    jvmArgs: "-Xms512m\ -Xmx1024m"
-#    replicaCount: 1
-#    resources:
+    name: 
+    - AgentServer
+    - IntegrationServer
+    jvmArgs: "-Xms512m\ -Xmx1024m"
+    replicaCount: 1
+    resources:
+       requests:
+         memory: 1024Mi
+         cpu: 0.5
 #    podLabels: {}
 #    tolerations: []
 #    nodeAffinity:
@@ -202,8 +227,8 @@ omserver:
 
 
 datasetup:
-  #loadFactoryData: "DoNotInstall"
-  loadFactoryData: "install"
+  loadFactoryData: "DoNotInstall"
+  #loadFactoryData: "install"
   mode: create
 
 
