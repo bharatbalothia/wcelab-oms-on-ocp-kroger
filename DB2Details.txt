@@ -5,3 +5,6 @@ Database name: ibmoms
 userid: db2inst1
 password: changeit
 
+cluster host name: oms-db2-ibm-db2oltp-dev.oms-dev.svc.cluster.local
+cluster port: 50000
+
