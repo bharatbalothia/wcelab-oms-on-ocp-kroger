@@ -1,0 +1,12 @@
+admin console:
+https://devmq.kroger-oms-on-ocp.us-east.containers.appdomain.cloud/ibmmq/console/login.html
+
+userid: admin
+password: turkish automate counter emerging
+
+MQ Server  External IP: 169.45.251.45
+MQ Server Port: 1414
+
+MQ Server Cluster IP Hostname: oms-mq-ibm-mq.oms-dev.svc.cluster.local 
+Port: 1414
+
