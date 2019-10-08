@@ -1,0 +1,7 @@
+DB2 External IP: 169.45.251.46
+Port: 50000
+
+Database name: ibmoms
+userid: db2inst1
+password: changeit
+
