@@ -1,0 +1,10 @@
+DB2 External IP: 169.45.251.46
+Port: 50000
+
+Database name: ibmoms
+userid: db2inst1
+password: changeit
+
+cluster host name: oms-db2-ibm-db2oltp-dev.oms-dev.svc.cluster.local
+cluster port: 50000
+
