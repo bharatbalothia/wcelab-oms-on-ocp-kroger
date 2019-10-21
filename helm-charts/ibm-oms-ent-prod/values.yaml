@@ -31,7 +31,7 @@ global:
   - yfs.Kroger.OMS.LOAD_1.IN=OMS.LOAD_1.IN
   - yfs.Kroger.OMS.LOAD_2.IN=OMS.LOAD_2.IN
   - yfs.Kroger.OMS.LOAD_3.IN=OMS.LOAD_3.IN
-  - yfs.Kroger.OMS.CONFIRM.SHIPMENT.IN=OMS.CONFIRM.SHIPMENT.IN
+  - yfs.Kroger.OMS.SHIPMENT.CONFIRM.IN=OMS.SHIPMENT.CONFIRM.IN
   - yfs.MQ_QCF=AGENT_QCF
   - yfs.MQ_PROVIDER_URL=file:/opt/ssfs
   - yfs.yfs.flow.override.icf=com.sun.jndi.fscontext.RefFSContextFactory
@@ -180,7 +180,7 @@ appserver:
 omserver:
   image: 
     name: oms-base-agent
-    tag: latest
+    tag: "1020201901"
     pullPolicy: IfNotPresent
   common:
     jvmArgs: "-Xms512m\ -Xmx1024m"
