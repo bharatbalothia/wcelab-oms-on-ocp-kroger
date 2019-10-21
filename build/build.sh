@@ -7,9 +7,9 @@ echo PUSH_DOCKERCFG_PATH $PUSH_DOCKERCFG_PATH
 echo "Content of the file $(cat $PUSH_DOCKERCFG_PATH/.dockercfg)"
 (echo "{ \"auths\": " ; sudo cat $PUSH_DOCKERCFG_PATH/.dockercfg ; echo "}") > /tmp/.dockercfg
 echo "OUTPUT_REGISTRY" ${OUTPUT_REGISTRY}
-echo "OUTPUT_IMAGE" ${OUTPUT_IMAGE}
-buildah tag om-app:10.0 ${OUTPUT_REGISTRY}/${OUTPUT_IMAGE}
+echo "RELEASE_VERSION" ${RELEASE_VERSION}
+buildah tag om-agent:10.0 ${OUTPUT_REGISTRY}/${RELEASE_VERSION}
 echo "buildah tag done"
 sudo docker images
-buildah push --tls-verify=false --authfile=/tmp/.dockercfg ${OUTPUT_REGISTRY}/${OUTPUT_IMAGE}
+buildah push --tls-verify=false --authfile=/tmp/.dockercfg ${OUTPUT_REGISTRY}/${RELEASE_VERSION}
 echo "buildah push done"
