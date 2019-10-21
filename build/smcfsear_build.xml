@@ -222,7 +222,7 @@
 	</target>
 	<target name="apply.customizations-step1" depends="clean, build-jars, copy-files" description="Executes all the targets">
 	</target>
-	<target name="apply.customizations-step2" depends="install-3rd-Party-oms-custom, resource-jar, entitydeployer" description="Executes all the targets">
+	<target name="apply.customizations-step2" depends="install-3rd-Party-oms-custom, resource-jar" description="Executes all the targets">
 	</target>
 
 </project>
