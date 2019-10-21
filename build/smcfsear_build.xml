@@ -116,7 +116,7 @@
 		<copy todir="${sterling.home}/extensions" overwrite="true">
 			<fileset dir="${devhome}/workspace/custom/generic/extensions"> </fileset>
 		</copy>
-		<!--Copy resources-->
+		<!--Copy resources
 		<echo> Copy the project specific resources to resources folder of APP </echo>
 		<copy todir="${sterling.home}/repository/xapi/template/merged/resource/extn" overwrite="true">
 			<fileset dir="${devhome}/workspace/custom/generic/resources/extn">
@@ -127,6 +127,7 @@
 			<fileset dir="${devhome}/workspace/custom/generic/repository/">
 			</fileset>
 		</copy>
+		-->
 	</target>
 
 
