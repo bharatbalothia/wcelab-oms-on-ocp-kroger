@@ -1,0 +1,32 @@
+kind: BuildConfig
+apiVersion: build.openshift.io/v1
+metadata:
+  name: oms-custom-build-001
+  namespace: oms-dev
+spec:
+  output:
+    to:
+      kind: ImageStreamTag
+      name: 'om-base-foundation:build001'
+    pushSecret:
+      name: builder-dockercfg-lnpsf
+  strategy:
+    type: Custom
+    customStrategy:
+      from:
+        kind: ImageStreamTag
+        namespace: oms-dev
+        name: 'om-base-foundation:latest'
+      env:
+        - name: OMS_RHOS_CUSTOM_BUILD
+          value: 'true'
+      exposeDockerSocket: true
+  serviceAccount: oms-dev-sa
+  source:
+    type: Git
+    git:
+      uri: 'git@github.ibm.com:wcelab/oms-on-ocp-kroger.git'
+    contextDir: build
+    sourceSecret:
+      name: github-sshuath-secret
+  runPolicy: Serial
