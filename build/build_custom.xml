@@ -7,6 +7,6 @@
 	 <property environment="env" />
 	 
  <!-- Main delegator --> 
- <target name="main" depends="apply.customizations-step1" />
+ <target name="main" depends="apply.customizations-step1,apply.customizations-step2" />
  
   </project> 
