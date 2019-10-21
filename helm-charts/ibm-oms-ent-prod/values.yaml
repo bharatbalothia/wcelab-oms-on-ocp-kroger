@@ -28,6 +28,10 @@ global:
   - yfs.Kroger.OMS.SCHEDULE.ORDER.AGENT=OMS.SCHEDULE.ORDER.AGENT
   - yfs.Kroger.OMS.RELEASE.ORDER.AGENT=OMS.RELEASE.ORDER.AGENT
   - yfs.Kroger.OMS.CONSOLIDATE.SHIPMENT.AGENT=OMS.CONSOLIDATE.SHIPMENT.AGENT
+  - yfs.Kroger.OMS.LOAD_1.IN=OMS.LOAD_1.IN
+  - yfs.Kroger.OMS.LOAD_2.IN=OMS.LOAD_2.IN
+  - yfs.Kroger.OMS.LOAD_3.IN=OMS.LOAD_3.IN
+  - yfs.Kroger.OMS.CONFIRM.SHIPMENT.IN=OMS.CONFIRM.SHIPMENT.IN
   - yfs.MQ_QCF=AGENT_QCF
   - yfs.MQ_PROVIDER_URL=file:/opt/ssfs
   - yfs.yfs.flow.override.icf=com.sun.jndi.fscontext.RefFSContextFactory
@@ -87,7 +91,7 @@ global:
 appserver:
   replicaCount: 1
   image: 
-    name: oms-app-is
+    name: oms-base-app
     tag: latest
     pullPolicy: IfNotPresent
   config:
@@ -175,7 +179,7 @@ appserver:
 
 omserver:
   image: 
-    name: oms-agent-is
+    name: oms-base-agent
     tag: latest
     pullPolicy: IfNotPresent
   common:
