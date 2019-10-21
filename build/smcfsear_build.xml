@@ -141,13 +141,14 @@
 	<target name="install-3rd-Party-oms-custom" description="install 3rd Party oms custom jar">
 		<echo>Installing Third Party oms jars --- Start</echo>
 		<exec dir="${sterling.home}/bin" executable="./install3rdParty.sh" failonerror="true">
-			<arg value="GM" />
+			<arg value="custom" />
 			<arg value="1.0" />
 			<arg value="-j" />
 			<arg value="${devhome}/dist/Foundation/${project.name}.jar" />
 			<arg value="-targetJVM" />
 			<arg value="EVERY" />
 		</exec>
+<!--
 		<exec dir="${sterling.home}/bin" executable="./install3rdParty.sh" failonerror="true">
 			<arg value="WCS" />
 			<arg value="9.0" />
@@ -164,6 +165,7 @@
 			<arg value="-targetJVM" />
 			<arg value="EVERY" />
 		</exec>
+-->
 		<echo>Installing Third Party oms jars --- End</echo>
 	</target>
 
