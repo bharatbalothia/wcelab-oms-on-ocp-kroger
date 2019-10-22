@@ -1,7 +1,7 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-   name: oms-kroger-ingress
+   name: oms-kroger-ingress-api
 spec:
    tls:
    - hosts:
