@@ -1,8 +1,8 @@
 apiVersion: extensions/v1beta1
- kind: Ingress
- metadata:
+kind: Ingress
+metadata:
    name: oms-kroger-ingress
- spec:
+spec:
    tls:
    - hosts:
      - api.oms-on-ocp-kroger.us-east.containers.appdomain.cloud
