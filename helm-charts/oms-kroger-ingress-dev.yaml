@@ -2,6 +2,8 @@
  kind: Ingress
  metadata:
    name: oms-kroger-ingress
+   annotations:
+     ingress.bluemix.net/sticky-cookie-services: "serviceName=oms-dev-ibm-oms-ent-prod name=ingress_ssfs expires=2h path=/ hash=sha1"
  spec:
    tls:
    - hosts:
