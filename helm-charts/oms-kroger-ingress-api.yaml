@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+ kind: Ingress
+ metadata:
+   name: oms-kroger-ingress
+ spec:
+   tls:
+   - hosts:
+     - api.oms-on-ocp-kroger.us-east.containers.appdomain.cloud
+     secretName: oms-on-ocp-kroger
+   rules:
+   - host: api.oms-on-ocp-kroger.us-east.containers.appdomain.cloud
+     http:
+       paths:
+       - path: /
+         backend:
+           serviceName: oms-dev-ibm-oms-ent-prod
+           servicePort: 9080
