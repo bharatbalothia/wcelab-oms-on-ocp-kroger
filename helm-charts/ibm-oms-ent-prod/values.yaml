@@ -89,7 +89,7 @@ global:
 
 
 appserver:
-  replicaCount: 1
+  replicaCount: 2
   image: 
     name: oms-base-app
     tag: latest
