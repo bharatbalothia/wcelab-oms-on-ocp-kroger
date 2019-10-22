@@ -180,7 +180,7 @@ appserver:
 omserver:
   image: 
     name: oms-base-agent
-    tag: "1020201901"
+    tag: "1020201904"
     pullPolicy: IfNotPresent
   common:
     jvmArgs: "-Xms512m\ -Xmx1024m"
