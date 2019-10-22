@@ -6,7 +6,7 @@ spec:
    tls:
    - hosts:
      - api.kroger-oms-on-ocp.us-east.containers.appdomain.cloud
-     secretName: oms-on-ocp-kroger
+     secretName: kroger-oms-on-ocp
    rules:
    - host: api.kroger-oms-on-ocp.us-east.containers.appdomain.cloud
      http:
