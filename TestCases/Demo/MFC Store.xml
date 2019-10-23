@@ -1,0 +1,32 @@
+<Organization AccountWithHub="" ActivateFlag="" AssignedColonyId="DEFAULT" AuthorityType="" BillingAddressKey="" CapacityOrganizationCode="KROGER_CATALOG_INV_ORG" CatalogOrganizationCode="KROGER_CATALOG_INV_ORG" ContactAddressKey="2015072202591442665" CorporateAddressKey="2018070406010121007" CreatorOrganizationKey="DEFAULT" CustomerMaintainedExternally="N" CustomerMasterOrganizationCode="KROGER_CINCINNATI" DunsNumber="" InheritOrgConfig="" InventoryKeptExternally="N" InventoryOrganizationCode="KROGER_CATALOG_INV_ORG" InventoryPublished="Y" IsHubOrganization="N" IsLegalEntity="" IsSourcingKept="N" IsTemplate="N" IssuingAuthority="" ItemXrefRule="" LocaleCode="en_US_EST" OrganizationCode="STORE_01400789" OrganizationKey="STORE_01400789" OrganizationName="Store 01400789" OrganizationSuffix="" ParentOrganizationCode="KROGER_CINCINNATI" PaymentProcessingReqd="N" PricingOrganizationCode="KROGER" PrimaryEnterpriseKey="KROGER_CINCINNATI" PrimarySicCode="" PrimaryUrl="" ResourceIdentifier="" StoreConfigOrganizationCode="KROGER_CINCINNATI" SupplyKeptExternally="Y" TaxExemptFlag="" TaxExemptionCertificate="" TaxJurisdiction="" TaxpayerId="" XrefAliasType="" XrefOrganizationCode="">
+	<CorporatePersonInfo AddressLine1="9950 Berberich Dr" AddressLine2="" AddressLine3="" AddressLine4="" AddressLine5="" AddressLine6="" AlternateEmailID="" Beeper="" City="Florence" Company="Kroger" Country="US" DayFaxNo="" DayPhone="859-372-3460" Department="" EMailID="" ErrorTxt="" EveningFaxNo="" EveningPhone="859-372-3460" FirstName="Store 01400789" HttpUrl="" JobTitle="" LastName="" MiddleName="" MobilePhone="" OtherPhone="" PersonID="" PersonInfoKey="2018070406010121007" PreferredShipAddress="" State="KY" Suffix="" Title="" UseCount="0" VerificationStatus="" ZipCode="41042"/>
+	<ContactPersonInfo AddressLine1="9950 Berberich Dr" AddressLine2="" AddressLine3="" AddressLine4="" AddressLine5="" AddressLine6="" AlternateEmailID="" Beeper="" City="Florence" Company="Kroger" Country="US" DayFaxNo="" DayPhone="859-372-3460" Department="" EMailID="" ErrorTxt="" EveningFaxNo="" EveningPhone="859-372-3460" FirstName="Store 01400364" HttpUrl="" JobTitle="" LastName="" MiddleName="" MobilePhone="" OtherPhone="" PersonID="" PersonInfoKey="2015072202591442665" PreferredShipAddress="" State="KY" Suffix="" Title="" UseCount="0" VerificationStatus="" ZipCode="41042"/>
+	<Node AcceptanceRequired="N" ActivateFlag="" CanShipToAllNodes="Y" CanShipToOtherAddresses="Y" ContactAddressKey="2015072202591442665" CurrentBolNumber="" DefaultDeclaredValue="0.00" Description="Store 01400789" ExportLicenseExpDate="" ExportLicenseNo="" ExportTaxpayerId="" GLN="" GenerateBolNumber="N" IdentifiedByParentAs="STORE_01400789" InterfaceSubType="" InterfaceType="YFX" InventoryTracked="Y" Inventorytype="TRACK" IsItemBasedAllocationAllowed="Y" Localecode="en_US_EST" MaintainInventoryCost="N" NodeOrgCode="STORE_01400789" NodeType="MFC" OwnerKey="KROGER_CINCINNATI" OwnerType="" PicklistType="" ReceiptProcessingTime="0.00" ReceiptProcessingTimeForForwarding="0.00" ReceivingNode="N" RequireTransferAcceptance="N" ReturnCenterFlag="N" ReturnsNode="N" ShipNode="STORE_01400789" ShipNodeAddressKey="2018070406010121007" ShipNodeClass="" ShipnodeKey="STORE_01400789" ShipnodeType="" ShippingNode="Y" SupplierKey="" ThreePlNode="N" TimeDiff="0.00">
+		<ShipNodePersonInfo AddressLine1="9950 Berberich Dr" AddressLine2="" AddressLine3="" AddressLine4="" AddressLine5="" AddressLine6="" AlternateEmailID="" Beeper="" City="Florence" Company="Kroger" Country="US" DayFaxNo="" DayPhone="859-372-3460" Department="" EMailID="" ErrorTxt="" EveningFaxNo="" EveningPhone="859-372-3460" FirstName="Store 01400789" HttpUrl="" JobTitle="" LastName="" MiddleName="" MobilePhone="" OtherPhone="" PersonID="" PersonInfoKey="2018070406010121007" PreferredShipAddress="" State="KY" Suffix="" Title="" UseCount="0" VerificationStatus="" ZipCode="41042"/>
+		<ContactPersonInfo AddressLine1="9950 Berberich Dr" AddressLine2="" AddressLine3="" AddressLine4="" AddressLine5="" AddressLine6="" AlternateEmailID="" Beeper="" City="Florence" Company="Kroger" Country="US" DayFaxNo="" DayPhone="859-372-3460" Department="" EMailID="" ErrorTxt="" EveningFaxNo="" EveningPhone="859-372-3460" FirstName="Store 01400364" HttpUrl="" JobTitle="" LastName="" MiddleName="" MobilePhone="" OtherPhone="" PersonID="" PersonInfoKey="2015072202591442665" PreferredShipAddress="" State="KY" Suffix="" Title="" UseCount="0" VerificationStatus="" ZipCode="41042"/>
+		<CanShipToNodeTypes/>
+		<NodeCarrierServicePickupScheduleList/>
+		<NodeCarrierServicePickupOverrideList/>
+	</Node>
+	<OrgProtocolList/>
+	<UserList/>
+	<RelatedOrgList/>
+	<EnterpriseOrgList>
+		<OrgEnterprise EnterpriseOrganizationKey="KROGER_CINCINNATI" OrgEnterpriseKey="2018070406010121011" OrganizationKey="STORE_01400789"/>
+	</EnterpriseOrgList>
+	<UserGroups/>
+	<OrgDocumentList/>
+	<Calendars/>
+	<DepartmentList/>
+	<CarrierPreferences/>
+	<ScacAndServiceList/>
+	<PaymentRuleList/>
+	<PaymentTypeList/>
+	<OrgServiceList/>
+	<ConsumableOrganizationList/>
+	<OrgThemeList/>
+	<OrgRoleList>
+		<OrgRole OrganizationKey="STORE_01400789" RoleKey="SELLER"/>
+		<OrgRole OrganizationKey="STORE_01400789" RoleKey="NODE"/>
+	</OrgRoleList>
+</Organization>

@@ -1,0 +1,65 @@
+<Item CanUseAsServiceTool="N" GlobalItemID="" InheritAttributesFromClassification="Y" IsItemSuperseded="N" ItemGroupCode="PROD" ItemID="0001500004757" ItemKey="20150720183204322034" MaxModifyTS="2019-09-19T19:46:28+00:00" OrganizationCode="KROGER_CATALOG_INV_ORG" UnitOfMeasure="EACH">
+	<PrimaryInformation AllowGiftWrap="Y" AssumeInfiniteInventory="Y" BundleFulfillmentMode="01" BundlePricingStrategy="PARENT" CapacityPerOrderedQty="0.00" CapacityQuantityStrategy="" ComputedUnitCost="0.00" CostCurrency="" CountryOfOrigin="" CreditWOReceipt="N" DefaultProductClass="GOOD" Description="Gerber Yogurt Blends Raspberry Spinach" DisplayItemDescription="Gerber Yogurt Blends Raspberry Spinach" ExtendedDescription="Unknown" ExtendedDisplayDescription="Unknown[0001500004757]" FixedCapacityQtyPerLine="0.00" FixedPricingQtyPerLine="0.00" ImageID="0001500004757" ImageLabel="0001500004757" ImageLocation="https://www.kroger.com/product/images/670864156/medium/front" InvoiceBasedOnActuals="N" InvolvesSegmentChange="N" IsAirShippingAllowed="Y" IsDeliveryAllowed="N" IsEligibleForShippingDiscount="Y" IsFreezerRequired="N" IsHazmat="N" IsModelItem="N" IsParcelShippingAllowed="Y" IsPickupAllowed="Y" IsReturnService="N" IsReturnable="Y" IsShippingAllowed="N" IsStandaloneService="" IsSubOnOrderAllowed="" IsValid="Y" ItemType="" KitCode="" ManufacturerItem="" ManufacturerItemDesc="" ManufacturerName="" MasterCatalogID="" MaxOrderQuantity="0.00" MaxReturnWindow="0" MinOrderQuantity="0.00" MinimumCapacityQuantity="0.00" NumSecondarySerials="0" OrderingQuantityStrategy="ENT" PricingQuantityConvFactor="0.00" PricingQuantityStrategy="" PricingUOM="" PricingUOMStrategy="" PrimaryEnterpriseCode="KROGER_CATALOG_INV_ORG" PrimarySupplier="" ProductLine="" RequiresProdAssociation="N" ReturnWindow="0" RunQuantity="0.00" SerializedFlag="N" ServiceTypeID="" ShortDescription="Gerber Yogurt Blends Raspberry Spinach" Status="3000" TaxableFlag="N" UnitCost="0.00" UnitHeight="0.00" UnitHeightUOM="" UnitLength="0.00" UnitLengthUOM="" UnitVolume="0.00" UnitVolumeUOM="" UnitWeight="0.00" UnitWeightUOM="" UnitWidth="0.00" UnitWidthUOM=""/>
+	<InventoryParameters ATPRule="KROGER_DEFAULT_ATP_RULE" AdvanceNotificationTime="0" DefaultExpirationDays="0" InventoryMonitorRule="KROGER_ATP_MONITOR_RULE" IsFifoTracked="N" IsItemBasedAllocationAllowed="Y" IsSerialTracked="N" LeadTime="0" MaximumNotificationTime="0.00" MinNotificationTime="0" NodeLevelInventoryMonitorRule="" ProcessingTime="0" TagControlFlag="N" TagReqAtReceipt="" TagReqAtShipment="" TimeSensitive="N" UseUnplannedInventory="N"/>
+	<ClassificationCodes CommodityCode="" ECCNNo="" HarmonizedCode="" HazmatClass="" NAICSCode="" NMFCClass="" NMFCCode="" OperationalConfigurationComplete="N" PickingType="" PostingClassification="" Schedule_B_Code="" StorageType="" TaxProductCode="" UNSPSC="" VelocityCode=""/>
+	<AssetList TotalNumberOfRecords="1">
+		<Asset AssetID="0001500004757" AssetKey="20150722203709805820" ContentID="0001500004757" ContentLocation="https://www.kroger.com/product/images/670864156/large/front" Label="0001500004757" Type="Image">
+			<AssetLocaleList TotalNumberOfRecords="0"/>
+		</Asset>
+	</AssetList>
+	<ItemLocaleList TotalNumberOfRecords="0"/>
+	<ItemServiceSkillList/>
+	<ItemAliasList/>
+	<ItemExclusionList/>
+	<AdditionalAttributeList>
+		<AdditionalAttribute AdditionalAttributeKey="20150722203709805823" AttributeDomainID="ItemAttribute" AttributeGroupID="KRGAttributeGroup" IntegerValue="1" Name="ITEM_CONTENT_SIZE_AMT" Value="14.000"/>
+		<AdditionalAttribute AdditionalAttributeKey="20150722203709805828" AttributeDomainID="ItemAttribute" AttributeGroupID="KRGAttributeGroup" IntegerValue="1" Name="ITEM_CONTENT_SIZE_UOM_CD" Value="OZ"/>
+		<AdditionalAttribute AdditionalAttributeKey="20150722203709805832" AttributeDomainID="ItemAttribute" AttributeGroupID="KRGAttributeGroup" IntegerValue="1" Name="ITEM_CONTENT_SIZE_UOM_DSC" Value="OUNCES"/>
+		<AdditionalAttribute AdditionalAttributeKey="20150722203709805837" AttributeDomainID="ItemAttribute" AttributeGroupID="KRGAttributeGroup" IntegerValue="1" Name="SERVICE_CNTER_CD" Value=""/>
+		<AdditionalAttribute AdditionalAttributeKey="20150722203709805842" AttributeDomainID="ItemAttribute" AttributeGroupID="KRGAttributeGroup" IntegerValue="1" Name="SERVICE_CNTER_DSC" Value=""/>
+		<AdditionalAttribute AdditionalAttributeKey="20150722203709805844" AttributeDomainID="ItemAttribute" AttributeGroupID="KRGAttributeGroup" IntegerValue="1" Name="TEMPERATURE_IND_CD" Value="Ambient"/>
+		<AdditionalAttribute AdditionalAttributeKey="20150722203709805846" AttributeDomainID="ItemAttribute" AttributeGroupID="KRGAttributeGroup" IntegerValue="1" Name="ORDER_BY_CD" Value="6"/>
+		<AdditionalAttribute AdditionalAttributeKey="20150722203709805848" AttributeDomainID="ItemAttribute" AttributeGroupID="KRGAttributeGroup" IntegerValue="1" Name="ORDER_BY_DSC" Value="Unit"/>
+		<AdditionalAttribute AdditionalAttributeKey="20150722203709805850" AttributeDomainID="ItemAttribute" AttributeGroupID="KRGAttributeGroup" IntegerValue="1" Name="SOLD_BY_CD" Value="8"/>
+		<AdditionalAttribute AdditionalAttributeKey="20150722203709805852" AttributeDomainID="ItemAttribute" AttributeGroupID="KRGAttributeGroup" IntegerValue="1" Name="SOLD_BY_DSC" Value="Unit"/>
+		<AdditionalAttribute AdditionalAttributeKey="20150722203709805853" AttributeDomainID="ItemAttribute" AttributeGroupID="KRGAttributeGroup" IntegerValue="1" Name="WEIGHT_PER_UNIT_AMT" Value=""/>
+		<AdditionalAttribute AdditionalAttributeKey="2019091919462821768860" AttributeDomainID="ItemAttribute" AttributeGroupID="KRGAttributeGroup" IntegerValue="1" Name="CUSTOMER_FACING_SIZE_VLU" Value="4 ct / 3.5 oz"/>
+		<AdditionalAttribute AdditionalAttributeKey="201707141614468674207" AttributeDomainID="ItemAttribute" AttributeGroupID="KRGAttributeGroup" IntegerValue="1" Name="CUBE_DEPTH_INCHES" Value=""/>
+		<AdditionalAttribute AdditionalAttributeKey="201707141614468674208" AttributeDomainID="ItemAttribute" AttributeGroupID="KRGAttributeGroup" IntegerValue="1" Name="CUBE_HEIGHT_INCHES" Value=""/>
+		<AdditionalAttribute AdditionalAttributeKey="201707141614468674209" AttributeDomainID="ItemAttribute" AttributeGroupID="KRGAttributeGroup" IntegerValue="1" Name="CUBE_WIDTH_INCHES" Value=""/>
+		<AdditionalAttribute AdditionalAttributeKey="201707141614468674210" AttributeDomainID="ItemAttribute" AttributeGroupID="KRGAttributeGroup" IntegerValue="1" Name="ITEM_CONTENT_SIZE_VLU" Value="4/3.5 OZ"/>
+	</AdditionalAttributeList>
+	<LanguageDescriptionList/>
+	<Components/>
+	<AlternateUOMList/>
+	<ItemInstructionList/>
+	<ItemOptionList/>
+	<ItemServiceAssocList/>
+	<ServiceActivities/>
+	<SafetyFactorDefinitions/>
+	<CategoryList>
+		<Category CategoryID="STORE_02400774_CATEGORY" CategoryKey="201506230757534533" CategoryPath="/KROGER_CATALOG_INV_ORGMasterCatalog/STORE_02400774_CATEGORY" OrganizationCode="KROGER_CATALOG_INV_ORG"/>
+		<Category CategoryID="48017" CategoryKey="2048017" CategoryPath="/KROGER_CATALOG_INV_ORGMasterCatalog/KrogerCatalog/41068/41849/48017" OrganizationCode="KROGER_CATALOG_INV_ORG"/>
+		<Category CategoryID="67_086_4156" CategoryKey="2067_086_4156" CategoryPath="/KROGER_CATALOG_INV_ORGMasterCatalog/KrogerCatalog/67/67_086/67_086_4156" OrganizationCode="KROGER_CATALOG_INV_ORG"/>
+	</CategoryList>
+	<ItemAttributeGroupTypeList>
+		<ItemAttributeGroupType ClassificationPurposeCode="SPECIFICATION" Description="Specifications" IsForMaintenance="Y" IsForSelling="N" IsSingleGroup="N" IsValidForCategory="Y" IsValidForClassification="Y" ItemAttributeGroupType="SPEC" ItemAttributeGroupTypeKey="GRP_KEY_SPEC">
+			<ItemAttributeGroupList/>
+			<ItemAttrGrpTypeLocaleList TotalNumberOfRecords="0"/>
+		</ItemAttributeGroupType>
+		<ItemAttributeGroupType ClassificationPurposeCode="FOR_FILTER" Description="For Filter" IsForMaintenance="N" IsForSelling="Y" IsSingleGroup="N" IsValidForCategory="Y" IsValidForClassification="N" ItemAttributeGroupType="FOR_FILTER" ItemAttributeGroupTypeKey="GRP_KEY_FILTER">
+			<ItemAttributeGroupList/>
+			<ItemAttrGrpTypeLocaleList TotalNumberOfRecords="0"/>
+		</ItemAttributeGroupType>
+		<ItemAttributeGroupType ClassificationPurposeCode="ASSIGNMENT" Description="Assignment" IsForMaintenance="Y" IsForSelling="Y" IsSingleGroup="N" IsValidForCategory="Y" IsValidForClassification="N" ItemAttributeGroupType="ASSIGNMENT" ItemAttributeGroupTypeKey="GRP_KEY_ASSIGN">
+			<ItemAttributeGroupList/>
+			<ItemAttrGrpTypeLocaleList TotalNumberOfRecords="0"/>
+		</ItemAttributeGroupType>
+		<ItemAttributeGroupType ClassificationPurposeCode="FOR_PRINT" Description="For Print" IsForMaintenance="Y" IsForSelling="N" IsSingleGroup="N" IsValidForCategory="Y" IsValidForClassification="N" ItemAttributeGroupType="FOR_PRINT" ItemAttributeGroupTypeKey="GRP_KEY_PRINT">
+			<ItemAttributeGroupList/>
+			<ItemAttrGrpTypeLocaleList TotalNumberOfRecords="0"/>
+		</ItemAttributeGroupType>
+	</ItemAttributeGroupTypeList>
+	<InheritedAttributes/>
+	<ChildItemList/>
+</Item>

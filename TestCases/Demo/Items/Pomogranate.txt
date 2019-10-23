@@ -1,0 +1,16 @@
+<ItemList>
+<Item CanUseAsServiceTool="N" GlobalItemID="" InheritAttributesFromClassification="Y" IsItemSuperseded="N" ItemGroupCode="PROD" ItemID="0000000003127"  OrganizationCode="KROGER_US" UnitOfMeasure="EACH">
+	<PrimaryInformation AllowGiftWrap="Y" AssumeInfiniteInventory="Y" BundleFulfillmentMode="01" BundlePricingStrategy="PARENT" CostCurrency="USD" DefaultProductClass="GOOD" Description="Pomegranate" DisplayItemDescription="Pomegranate" ExtendedDescription="Pomegranate" ExtendedDisplayDescription="Pomegranate" ImageID="0000000003127" ImageLabel="0000000003127" ImageLocation="https://www.kroger.com/product/images/medium/front/0000000003127" InvoiceBasedOnActuals="N" IsPickupAllowed="Y" IsReturnable="Y" PricingUOM="EACH" PricingUOMStrategy="INV" PrimaryEnterpriseCode="KROGER_US" ShortDescription="Pomegranate" Status="3000" TaxableFlag="N" />
+	<InventoryParameters ATPRule="KROGER_DEFAULT_ATP_RULE" InventoryMonitorRule="KROGER_ATP_MONITOR_RULE" IsFifoTracked="N" IsItemBasedAllocationAllowed="Y" IsSerialTracked="N" LeadTime="0" />
+	<AssetList TotalNumberOfRecords="1">
+		<Asset AssetID="0000000003127" ContentID="0000000003127" ContentLocation="https://www.kroger.com/product/images/medium/front/0000000003127" 
+		Label="0000000003127" Type="Image">
+			<AssetLocaleList TotalNumberOfRecords="0"/>
+		</Asset>
+	</AssetList>
+	<CategoryList>
+		<Category CategoryID="45315" CategoryPath="/KROGER_US/KROGER_USMasterCatalog/41020/41499/45315" OrganizationCode="KROGER_US"/>
+	</CategoryList>
+</Item>
+
+</ItemList>

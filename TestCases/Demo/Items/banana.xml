@@ -1,0 +1,27 @@
+<ItemList>
+<Item CanUseAsServiceTool="N" GlobalItemID="" InheritAttributesFromClassification="Y" IsItemSuperseded="N" ItemGroupCode="PROD" ItemID="0003100010101"  OrganizationCode="KROGER_US" UnitOfMeasure="EACH">
+	<PrimaryInformation AllowGiftWrap="Y" AssumeInfiniteInventory="Y" BundleFulfillmentMode="01" BundlePricingStrategy="PARENT" CostCurrency="USD" DefaultProductClass="GOOD" Description="Banana" DisplayItemDescription="Banana" ExtendedDescription="Banana" ExtendedDisplayDescription="Banana" ImageID="0003100010101" ImageLabel="0003100010101" ImageLocation="https://www.kroger.com/product/images/medium/front/0003100010101" InvoiceBasedOnActuals="N" IsPickupAllowed="Y" IsReturnable="Y" PricingUOM="EACH" PricingUOMStrategy="INV" PrimaryEnterpriseCode="KROGER_US" ShortDescription="Banana" Status="3000" TaxableFlag="N" />
+	<InventoryParameters ATPRule="KROGER_DEFAULT_ATP_RULE" InventoryMonitorRule="KROGER_ATP_MONITOR_RULE" IsFifoTracked="N" IsItemBasedAllocationAllowed="Y" IsSerialTracked="N" LeadTime="0" />
+	<AssetList TotalNumberOfRecords="1">
+		<Asset AssetID="0003100010101" ContentID="0003100010101" ContentLocation="https://www.kroger.com/product/images/medium/front/0003100010101" Label="0003100010101" Type="Image">
+			<AssetLocaleList TotalNumberOfRecords="0"/>
+		</Asset>
+	</AssetList>
+	<CategoryList>
+		<Category CategoryID="45315" CategoryPath="/KROGER_US/KROGER_USMasterCatalog/41020/41499/45315" OrganizationCode="KROGER_US"/>
+	</CategoryList>
+</Item>
+<Item CanUseAsServiceTool="N" GlobalItemID="" InheritAttributesFromClassification="Y" IsItemSuperseded="N" ItemGroupCode="PROD" ItemID="0003100010101"  OrganizationCode="KROGER_US" UnitOfMeasure="EACH">
+	<PrimaryInformation AllowGiftWrap="Y" AssumeInfiniteInventory="Y" BundleFulfillmentMode="01" BundlePricingStrategy="PARENT" CostCurrency="USD" DefaultProductClass="GOOD" Description="Banana" DisplayItemDescription="Banana" ExtendedDescription="Banana" ExtendedDisplayDescription="Banana" ImageID="0003100010101" ImageLabel="0003100010101" ImageLocation="https://www.kroger.com/product/images/medium/front/0003100010101" InvoiceBasedOnActuals="N" IsPickupAllowed="Y" IsReturnable="Y" PricingUOM="EACH" PricingUOMStrategy="INV" PrimaryEnterpriseCode="KROGER_US" ShortDescription="Banana" Status="3000" TaxableFlag="N" />
+	<InventoryParameters ATPRule="KROGER_DEFAULT_ATP_RULE" InventoryMonitorRule="KROGER_ATP_MONITOR_RULE" IsFifoTracked="N" IsItemBasedAllocationAllowed="Y" IsSerialTracked="N" LeadTime="0" />
+	<AssetList TotalNumberOfRecords="1">
+		<Asset AssetID="0003100010101" ContentID="0003100010101" ContentLocation="https://www.kroger.com/product/images/medium/front/0003100010101" Label="0003100010101" Type="Image">
+			<AssetLocaleList TotalNumberOfRecords="0"/>
+		</Asset>
+	</AssetList>
+	<CategoryList>
+		<Category CategoryID="45315" CategoryPath="/KROGER_US/KROGER_USMasterCatalog/41020/41499/45315" OrganizationCode="KROGER_US"/>
+	</CategoryList>
+</Item>
+
+</ItemList>

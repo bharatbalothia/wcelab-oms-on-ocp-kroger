@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Organization AccountWithHub="" ActivateFlag="" AssignedColonyId="DEFAULT" AuthorityType="" BillingAddressKey="" CapacityOrganizationCode="KROGER_CATALOG_INV_ORG" CatalogOrganizationCode="KROGER_CATALOG_INV_ORG" ContactAddressKey="2015090904350648498" CorporateAddressKey="2015090904350648498" CreatorOrganizationKey="DEFAULT" CustomerMasterOrganizationCode="KROGER_NASHVILLE" DunsNumber="" InheritOrgConfig="" InventoryKeptExternally="N" InventoryOrganizationCode="KROGER_CATALOG_INV_ORG" InventoryPublished="Y" IsHubOrganization="N" IsLegalEntity="" IsSourcingKept="N" IsTemplate="N" IssuingAuthority="" ItemXrefRule="" LocaleCode="en_US_EST" OrganizationCode="STORE_02600531" OrganizationKey="STORE_02600531" OrganizationName="Store 02600531" OrganizationSuffix="" ParentOrganizationCode="KROGER_NASHVILLE" PaymentProcessingReqd="N" PricingOrganizationCode="KROGER" PrimaryEnterpriseKey="KROGER_NASHVILLE" PrimarySicCode="" PrimaryUrl="" ResourceIdentifier="" StoreConfigOrganizationCode="KROGER_NASHVILLE" SupplyKeptExternally="Y" TaxExemptFlag="" TaxExemptionCertificate="" TaxJurisdiction="" TaxpayerId="" XrefAliasType="" XrefOrganizationCode="">
+	<CorporatePersonInfo AddressLine1="4409 Chapman Hwy" AddressLine2="" AddressLine3="" AddressLine4="" AddressLine5="" AddressLine6="" AlternateEmailID="" Beeper="" City="Knoxville" Company="Kroger" Country="US" DayFaxNo="" DayPhone="865-577-3977" Department="" EMailID="" ErrorTxt="" EveningFaxNo="" EveningPhone="865-577-3977" FirstName="Store 02600531" HttpUrl="" JobTitle="" LastName="" MiddleName="" MobilePhone="" OtherPhone="" PersonID="" PersonInfoKey="2015090904350648498" PreferredShipAddress="" State="TN" Suffix="" Title="" UseCount="0" VerificationStatus="" ZipCode="37920"/>
+	<ContactPersonInfo AddressLine1="4409 Chapman Hwy" AddressLine2="" AddressLine3="" AddressLine4="" AddressLine5="" AddressLine6="" AlternateEmailID="" Beeper="" City="Knoxville" Company="Kroger" Country="US" DayFaxNo="" DayPhone="865-577-3977" Department="" EMailID="" ErrorTxt="" EveningFaxNo="" EveningPhone="865-577-3977" FirstName="Store 02600531" HttpUrl="" JobTitle="" LastName="" MiddleName="" MobilePhone="" OtherPhone="" PersonID="" PersonInfoKey="2015090904350648498" PreferredShipAddress="" State="TN" Suffix="" Title="" UseCount="0" VerificationStatus="" ZipCode="37920"/>
+	<Node AcceptanceRequired="N" ActivateFlag="" CanShipToAllNodes="Y" CanShipToOtherAddresses="Y" ContactAddressKey="2015090904350648498" CurrentBolNumber="" DefaultDeclaredValue="0.00" Description="Store 02600531" ExportLicenseExpDate="" ExportLicenseNo="" ExportTaxpayerId="" GLN="" GenerateBolNumber="N" IdentifiedByParentAs="STORE_02600531" InterfaceSubType="" InterfaceType="YFX" InventoryTracked="Y" Inventorytype="TRACK" IsItemBasedAllocationAllowed="Y" Localecode="en_US_EST" MaintainInventoryCost="N" NodeOrgCode="STORE_02600531" NodeType="Store" OwnerKey="KROGER_NASHVILLE" OwnerType="" PicklistType="" ReceiptProcessingTime="0.00" ReceiptProcessingTimeForForwarding="0.00" ReceivingNode="N" RequireTransferAcceptance="N" ReturnCenterFlag="N" ReturnsNode="N" ShipNode="STORE_02600531" ShipNodeAddressKey="2015090904350648498" ShipNodeClass="" ShipnodeKey="STORE_02600531" ShipnodeType="" ShippingNode="Y" SupplierKey="" ThreePlNode="N" TimeDiff="0.00">
+		<ShipNodePersonInfo AddressLine1="4409 Chapman Hwy" AddressLine2="" AddressLine3="" AddressLine4="" AddressLine5="" AddressLine6="" AlternateEmailID="" Beeper="" City="Knoxville" Company="Kroger" Country="US" DayFaxNo="" DayPhone="865-577-3977" Department="" EMailID="" ErrorTxt="" EveningFaxNo="" EveningPhone="865-577-3977" FirstName="Store 02600531" HttpUrl="" JobTitle="" LastName="" MiddleName="" MobilePhone="" OtherPhone="" PersonID="" PersonInfoKey="2015090904350648498" PreferredShipAddress="" State="TN" Suffix="" Title="" UseCount="0" VerificationStatus="" ZipCode="37920"/>
+		<ContactPersonInfo AddressLine1="4409 Chapman Hwy" AddressLine2="" AddressLine3="" AddressLine4="" AddressLine5="" AddressLine6="" AlternateEmailID="" Beeper="" City="Knoxville" Company="Kroger" Country="US" DayFaxNo="" DayPhone="865-577-3977" Department="" EMailID="" ErrorTxt="" EveningFaxNo="" EveningPhone="865-577-3977" FirstName="Store 02600531" HttpUrl="" JobTitle="" LastName="" MiddleName="" MobilePhone="" OtherPhone="" PersonID="" PersonInfoKey="2015090904350648498" PreferredShipAddress="" State="TN" Suffix="" Title="" UseCount="0" VerificationStatus="" ZipCode="37920"/>
+		<CanShipToNodeTypes/>
+		<NodeCarrierServicePickupScheduleList/>
+		<NodeCarrierServicePickupOverrideList/>
+	</Node>
+	<OrgProtocolList/>
+	<UserList/>
+	<RelatedOrgList/>
+	<EnterpriseOrgList>
+		<OrgEnterprise EnterpriseOrganizationKey="KROGER_NASHVILLE" OrgEnterpriseKey="2015090904350648502" OrganizationKey="STORE_02600531"/>
+	</EnterpriseOrgList>
+	<UserGroups/>
+	<OrgDocumentList/>
+	<Calendars/>
+	<DepartmentList/>
+	<CarrierPreferences/>
+	<ScacAndServiceList/>
+	<PaymentRuleList/>
+	<PaymentTypeList/>
+	<OrgServiceList/>
+	<ConsumableOrganizationList/>
+	<OrgThemeList/>
+	<OrgRoleList>
+		<OrgRole OrganizationKey="STORE_02600531" RoleKey="SELLER"/>
+		<OrgRole OrganizationKey="STORE_02600531" RoleKey="NODE"/>
+	</OrgRoleList>
+</Organization>

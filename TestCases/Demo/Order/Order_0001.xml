@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Order Action="CREATE" AuthorizedClient="MASTER-ORDER"
+    DocumentType="0001" DraftOrderFlag="N" EnterpriseCode="KROGER_US"
+    EntryType="Web" IsShipComplete="N"
+    OrderDate="2019-10-16T12:48:00.832Z" OrderNo="Kroger1017201901"
+    PaymentRuleId="KrgPayOnOrderPickup" SearchCriteria1="PICK"
+    SellerOrganizationCode="KROGER_CINCINNATI" ShipNode="STORE_01400020">
+    <PriceInfo Currency="USD"/>
+    <OrderLines>
+          <OrderLine DeliveryMethod="PICK" OrderedQty="4" PrimeLineNo="1"
+            ShipNode="STORE_01400020" SubLineNo="1">
+            <Item ItemDesc="Pomegranate"
+                ItemID="0000000003127"
+                ItemShortDesc="Pomegranate"
+                ProductClass="GOOD" UnitOfMeasure="EACH"/>
+            <LinePriceInfo IsLinePriceForInformationOnly="N"
+                IsPriceLocked="Y" PricingQuantityStrategy="FIX"
+                RetailPrice="1.5000" UnitPrice="1.5000"/>
+            <LineCharges/>
+            <LineTaxes/>
+        </OrderLine>
+    </OrderLines>
+    <PersonInfoShipTo AddressLine1="8751 Harpers Point Dr" City="Cincinnati"
+        Country="US" DayPhone="5139085524" State="OH" ZipCode="45249"/>
+    <PersonInfoBillTo DayPhone="5139085524" EMailID="mreyas@us.ibm.com"
+        FirstName="Moideen" LastName="Reyas"/>
+</Order>

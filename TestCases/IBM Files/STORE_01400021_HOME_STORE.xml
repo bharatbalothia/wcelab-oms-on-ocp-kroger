@@ -1,0 +1,32 @@
+<Organization AccountWithHub="" ActivateFlag="" AssignedColonyId="DEFAULT" AuthorityType="" BillingAddressKey="" CapacityOrganizationCode="KROGER_CATALOG_INV_ORG" CatalogOrganizationCode="KROGER_CATALOG_INV_ORG" ContactAddressKey="2015103014034078065" CorporateAddressKey="2015103014034078065" CreatorOrganizationKey="DEFAULT" CustomerMaintainedExternally="N" CustomerMasterOrganizationCode="KROGER_CINCINNATI" DunsNumber="" InheritOrgConfig="" InventoryKeptExternally="N" InventoryOrganizationCode="KROGER_CATALOG_INV_ORG" InventoryPublished="Y" IsHubOrganization="N" IsLegalEntity="" IsSourcingKept="N" IsTemplate="N" IssuingAuthority="" ItemXrefRule="" LocaleCode="en_US_EST" OrganizationCode="STORE_01400021" OrganizationKey="STORE_01400021" OrganizationName="Store 01400021" OrganizationSuffix="" ParentOrganizationCode="KROGER_CINCINNATI" PaymentProcessingReqd="N" PricingOrganizationCode="KROGER" PrimaryEnterpriseKey="KROGER_CINCINNATI" PrimarySicCode="" PrimaryUrl="" ResourceIdentifier="" StoreConfigOrganizationCode="KROGER_CINCINNATI" SupplyKeptExternally="N" TaxExemptFlag="" TaxExemptionCertificate="" TaxJurisdiction="" TaxpayerId="" XrefAliasType="" XrefOrganizationCode="">
+	<CorporatePersonInfo AddressLine1="1014 Vine Street" AddressLine2="" AddressLine3="" AddressLine4="" AddressLine5="" AddressLine6="" AlternateEmailID="" Beeper="" City="Cincinnati" Company="Kroger" Country="US" DayFaxNo="" DayPhone="" Department="" EMailID="" ErrorTxt="" EveningFaxNo="" EveningPhone="" FirstName="Store 01400021" HttpUrl="" JobTitle="" LastName="" MiddleName="" MobilePhone="" OtherPhone="" PersonID="" PersonInfoKey="2015103014034078065" PreferredShipAddress="" State="Ohio" Suffix="" Title="" UseCount="0" VerificationStatus="" ZipCode="45220"/>
+	<ContactPersonInfo AddressLine1="1014 Vine Street" AddressLine2="" AddressLine3="" AddressLine4="" AddressLine5="" AddressLine6="" AlternateEmailID="" Beeper="" City="Cincinnati" Company="Kroger" Country="US" DayFaxNo="" DayPhone="" Department="" EMailID="" ErrorTxt="" EveningFaxNo="" EveningPhone="" FirstName="Store 01400021" HttpUrl="" JobTitle="" LastName="" MiddleName="" MobilePhone="" OtherPhone="" PersonID="" PersonInfoKey="2015103014034078065" PreferredShipAddress="" State="Ohio" Suffix="" Title="" UseCount="0" VerificationStatus="" ZipCode="45220"/>
+	<Node AcceptanceRequired="N" ActivateFlag="" CanShipToAllNodes="Y" CanShipToOtherAddresses="Y" ContactAddressKey="2015103014034078065" CurrentBolNumber="" DefaultDeclaredValue="0.00" Description="Store 01400021" ExportLicenseExpDate="" ExportLicenseNo="" ExportTaxpayerId="" GLN="" GenerateBolNumber="N" IdentifiedByParentAs="STORE_01400021" InterfaceSubType="" InterfaceType="YFX" InventoryTracked="Y" Inventorytype="TRACK" IsItemBasedAllocationAllowed="Y" Localecode="en_US_EST" MaintainInventoryCost="N" NodeOrgCode="STORE_01400021" NodeType="Store" OwnerKey="KROGER_CINCINNATI" OwnerType="" PicklistType="" ReceiptProcessingTime="0.00" ReceiptProcessingTimeForForwarding="0.00" ReceivingNode="N" RequireTransferAcceptance="N" ReturnCenterFlag="N" ReturnsNode="N" ShipNode="STORE_01400021" ShipNodeAddressKey="2015103014034078065" ShipNodeClass="" ShipnodeKey="STORE_01400021" ShipnodeType="" ShippingNode="Y" SupplierKey="" ThreePlNode="N" TimeDiff="0.00">
+		<ShipNodePersonInfo AddressLine1="1014 Vine Street" AddressLine2="" AddressLine3="" AddressLine4="" AddressLine5="" AddressLine6="" AlternateEmailID="" Beeper="" City="Cincinnati" Company="Kroger" Country="US" DayFaxNo="" DayPhone="" Department="" EMailID="" ErrorTxt="" EveningFaxNo="" EveningPhone="" FirstName="Store 01400021" HttpUrl="" JobTitle="" LastName="" MiddleName="" MobilePhone="" OtherPhone="" PersonID="" PersonInfoKey="2015103014034078065" PreferredShipAddress="" State="Ohio" Suffix="" Title="" UseCount="0" VerificationStatus="" ZipCode="45220"/>
+		<ContactPersonInfo AddressLine1="1014 Vine Street" AddressLine2="" AddressLine3="" AddressLine4="" AddressLine5="" AddressLine6="" AlternateEmailID="" Beeper="" City="Cincinnati" Company="Kroger" Country="US" DayFaxNo="" DayPhone="" Department="" EMailID="" ErrorTxt="" EveningFaxNo="" EveningPhone="" FirstName="Store 01400021" HttpUrl="" JobTitle="" LastName="" MiddleName="" MobilePhone="" OtherPhone="" PersonID="" PersonInfoKey="2015103014034078065" PreferredShipAddress="" State="Ohio" Suffix="" Title="" UseCount="0" VerificationStatus="" ZipCode="45220"/>
+		<CanShipToNodeTypes/>
+		<NodeCarrierServicePickupScheduleList/>
+		<NodeCarrierServicePickupOverrideList/>
+	</Node>
+	<OrgProtocolList/>
+	<UserList/>
+	<RelatedOrgList/>
+	<EnterpriseOrgList>
+		<OrgEnterprise EnterpriseOrganizationKey="KROGER_CINCINNATI" OrgEnterpriseKey="2015103014034078069" OrganizationKey="STORE_01400021"/>
+	</EnterpriseOrgList>
+	<UserGroups/>
+	<OrgDocumentList/>
+	<Calendars/>
+	<DepartmentList/>
+	<CarrierPreferences/>
+	<ScacAndServiceList/>
+	<PaymentRuleList/>
+	<PaymentTypeList/>
+	<OrgServiceList/>
+	<ConsumableOrganizationList/>
+	<OrgThemeList/>
+	<OrgRoleList>
+		<OrgRole OrganizationKey="STORE_01400021" RoleKey="SELLER"/>
+		<OrgRole OrganizationKey="STORE_01400021" RoleKey="NODE"/>
+	</OrgRoleList>
+</Organization>

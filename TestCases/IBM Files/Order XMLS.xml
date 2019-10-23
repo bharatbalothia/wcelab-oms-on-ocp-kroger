@@ -1,0 +1,382 @@
+-- ------------------- BAYMAX PIKCUP ORDER INPUT ---------------------
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Order Action="CREATE" AuthorizedClient="MASTER-ORDER"
+    BillToID="6a8c86a1-f25b-76f1-7c07-76cb17e1aff5" BypassPricing="Y"
+    DocumentType="0001" DraftOrderFlag="N" EnterpriseCode="KROGER"
+    EntryType="Web" IsShipComplete="N"
+    OrderDate="2019-09-26T15:48:00.832Z" OrderNo="Bay-Max-Pickup0001N"
+    PaymentRuleId="KrgPayOnOrderPickup" SearchCriteria1="PICK"
+    SellerOrganizationCode="KROGER_CINCINNATI" ShipNode="STORE_01400383" ValidatePromotionAward="N">
+    <PriceInfo Currency="USD"/>
+    <Extn ExtnAuthStatus="AUTHORIZED"
+        ExtnCustGUID="6a8c86a1-f25b-76f1-7c07-76cb17e1aff5"
+        ExtnIsTimeslotReserved="Y" ExtnLoyaltyId="415591904390"
+        ExtnPickUpDate="2019-09-26" ExtnPickUpTimeBegin="19:00:00"
+        ExtnPickUpTimeEnd="21:00:00" ExtnReservationId="bae722b5-a27f-4c82-900e-f85cf2e6aa1b"/>
+    <OrderLines>
+          <OrderLine DeliveryMethod="PICK" OrderedQty="4" PrimeLineNo="1"
+            ShipNode="STORE_01400383" SubLineNo="1">
+            <Item ItemDesc="Pomegranate"
+                ItemID="0003100010101"
+                ItemShortDesc="Pomegranate"
+                ProductClass="GOOD" UnitOfMeasure="EACH"/>
+            <Extn ExtnCustOrdQty="1" ExtnSubstitutionAllowed="Y"/>
+            <LinePriceInfo IsLinePriceForInformationOnly="N"
+                IsPriceLocked="Y" PricingQuantityStrategy="FIX"
+                RetailPrice="0.5000" UnitPrice="0.5000"/>
+            <LineCharges/>
+            <LineTaxes/>
+        </OrderLine>
+		<OrderLine DeliveryMethod="PICK" OrderedQty="1" PrimeLineNo="1"
+            ShipNode="STORE_01400383" SubLineNo="1">
+			<Notes>
+				<Note NoteText="some instructions"/>
+			</Notes>
+			<Item ItemDesc="some description" ItemID="0001570007200"
+                ItemShortDesc="some description" ProductClass="GOOD" UnitOfMeasure="EACH"/>
+			<Extn ExtnCustOrdQty="1" ExtnSubstitutionAllowed="Y"/>
+			<LinePriceInfo IsLinePriceForInformationOnly="N"
+                IsPriceLocked="Y" ListPrice="0.89"
+                PricingQuantityStrategy="FIX" RetailPrice="4.99" UnitPrice="0.89"/>
+			<LineCharges/>
+			<LineTaxes/>
+		</OrderLine>
+    </OrderLines>
+    
+    <PersonInfoShipTo AddressLine1="8751 Harpers Point Dr" City="Cincinnati"
+        Country="US" DayPhone="5139085524" State="OH" ZipCode="45249"/>
+    <PersonInfoBillTo DayPhone="5139085524" EMailID="asish.panda@kroger.com"
+        FirstName="Asish" LastName="Panda"/>
+</Order>
+-- ------------------- BAYMAX PIKCUP ORDER UE OUTPUT ---------------------
+
+<Order Action="CREATE" AuthorizedClient="MASTER-ORDER"
+    BillToID="6a8c86a1-f25b-76f1-7c07-76cb17e1aff5" BypassPricing="Y"
+    DocumentType="0001" DraftOrderFlag="N" EnterpriseCode="KROGER"
+    EntryType="Web" IsShipComplete="N"
+    OrderDate="2019-09-26T15:48:00.832Z" OrderNo="Bay-Max-Pickup0001N"
+    PaymentRuleId="KrgPayOnOrderPickup" SearchCriteria1="PICK"
+    SearchCriteria2="S" SellerOrganizationCode="KROGER_CINCINNATI"
+    ShipNode="STORE_01400383" ValidatePromotionAward="N">
+    <PriceInfo Currency="USD"/>
+    <Extn ExtnAuthStatus="AUTHORIZED"
+        ExtnCustGUID="6a8c86a1-f25b-76f1-7c07-76cb17e1aff5"
+        ExtnCustomerType="REPEAT"
+        ExtnIsModifiableUntil="2019-09-25T23:59:59"
+        ExtnIsTimeslotReserved="Y" ExtnLoyaltyId="415591904390"
+        ExtnOrderDateLocalTime="2019-09-26" ExtnPickUpDate="2019-09-26"
+        ExtnPickUpTimeBegin="19:00:00" ExtnPickUpTimeEnd="21:00:00" ExtnReservationId="bae722b5-a27f-4c82-900e-f85cf2e6aa1b"/>
+    <OrderLines>
+        <OrderLine DeliveryMethod="PICK"
+            EarliestScheduleDate="2019-09-26T15:48:00.832Z"
+            OrderedQty="4" PrimeLineNo="1"
+            ReqDeliveryDate="2019-09-26T23:00:00+00:00"
+            ReqShipDate="2019-09-26T23:00:00+00:00"
+            ShipNode="STORE_01400383" SubLineNo="1">
+            <Item ItemDesc="Pomegranate" ItemID="0003100010101"
+                ItemShortDesc="Pomegranate" ProductClass="GOOD" UnitOfMeasure="EACH"/>
+            <Extn ExtnCustOrdQty="4" ExtnIsTimeslotReserved="Y"
+                ExtnPickUpDate="2019-09-26"
+                ExtnPickUpTimeBegin="19:00:00"
+                ExtnPickUpTimeEnd="21:00:00"
+                ExtnReservationId="bae722b5-a27f-4c82-900e-f85cf2e6aa1b" ExtnSubstitutionAllowed="Y"/>
+            <LinePriceInfo IsLinePriceForInformationOnly="N"
+                IsPriceLocked="Y" PricingQuantityStrategy="FIX"
+                RetailPrice="0.5000" UnitPrice="0.5000"/>
+            <LineCharges/>
+            <LineTaxes/>
+        </OrderLine>
+        <OrderLine DeliveryMethod="PICK"
+            EarliestScheduleDate="2019-09-26T15:48:00.832Z"
+            OrderedQty="1" PrimeLineNo="1"
+            ReqDeliveryDate="2019-09-26T23:00:00+00:00"
+            ReqShipDate="2019-09-26T23:00:00+00:00"
+            ShipNode="STORE_01400383" SubLineNo="1">
+            <Notes>
+                <Note NoteText="some instructions"/>
+            </Notes>
+            <Item ItemDesc="some description" ItemID="0001570007200"
+                ItemShortDesc="some description" ProductClass="GOOD" UnitOfMeasure="EACH"/>
+            <Extn ExtnCustOrdQty="1" ExtnIsTimeslotReserved="Y"
+                ExtnPickUpDate="2019-09-26"
+                ExtnPickUpTimeBegin="19:00:00"
+                ExtnPickUpTimeEnd="21:00:00"
+                ExtnReservationId="bae722b5-a27f-4c82-900e-f85cf2e6aa1b" ExtnSubstitutionAllowed="Y"/>
+            <LinePriceInfo IsLinePriceForInformationOnly="N"
+                IsPriceLocked="Y" ListPrice="0.89"
+                PricingQuantityStrategy="FIX" RetailPrice="4.99" UnitPrice="0.89"/>
+            <LineCharges/>
+            <LineTaxes/>
+        </OrderLine>
+    </OrderLines>
+    <PersonInfoShipTo AddressLine1="8751 Harpers Point Dr"
+        City="Cincinnati" Country="US" DayPhone="5139085524" State="OH" ZipCode="45249"/>
+    <PersonInfoBillTo DayPhone="5139085524"
+        EMailID="asish.panda@kroger.com" FirstName="Asish" LastName="Panda"/>
+    <OrderDates>
+        <OrderDate DateTypeId="KRG_ORDER_RELEASE_DATE" RequestedDate="2019-09-26T16:48:00+00:00"/>
+        <OrderDate DateTypeId="KRG_ORDER_PICKUP_END_DATE" RequestedDate="2019-09-27T01:00:00+00:00"/>
+        <OrderDate DateTypeId="KRG_ORDER_MARSHALL_PICK_DATE" RequestedDate="2019-09-27T01:00:00+00:00"/>
+    </OrderDates>
+</Order>
+-- ------------------- MFC PIKCUP ORDER INPUT ---------------------
+<?xml version="1.0" encoding="UTF-8"?>
+<Order Action="CREATE" AuthorizedClient="MASTER-ORDER"
+    BillToID="6a8c86a1-f25b-76f1-7c07-76cb17e1aff5" BypassPricing="Y"
+    DocumentType="0001" DraftOrderFlag="N" EnterpriseCode="KROGER"
+    EntryType="Web" IsShipComplete="N"
+    OrderDate="2019-09-26T15:48:00.832Z" OrderNo="07302019MFC_PICKUP2N"
+    PaymentRuleId="KrgPayOnOrderPickup" SearchCriteria1="PICK"
+    SellerOrganizationCode="KROGER_CINCINNATI" ShipNode="STORE_01400789" ValidatePromotionAward="N">
+    <PriceInfo Currency="USD"/>
+    <Extn ExtnAuthStatus="AUTHORIZED"
+        ExtnCustGUID="6a8c86a1-f25b-76f1-7c07-76cb17e1aff5"
+        ExtnIsTimeslotReserved="Y" ExtnLoyaltyId="415591904390"
+        ExtnPickUpDate="2019-09-26" ExtnPickUpTimeBegin="19:00:00"
+        ExtnPickUpTimeEnd="20:00:00" ExtnReservationId="bae722b5-a27f-4c82-900e-f85cf2e6aa1b"/>
+    <OrderLines>
+          <OrderLine DeliveryMethod="PICK" OrderedQty="4" PrimeLineNo="1"
+            ShipNode="STORE_01400789" SubLineNo="1">
+            <Item ItemDesc="Pomegranate"
+                ItemID="0003100010101"
+                ItemShortDesc="Pomegranate"
+                ProductClass="GOOD" UnitOfMeasure="EACH"/>
+            <Extn ExtnCustOrdQty="1" ExtnSubstitutionAllowed="Y"/>
+            <LinePriceInfo IsLinePriceForInformationOnly="N"
+                IsPriceLocked="Y" PricingQuantityStrategy="FIX"
+                RetailPrice="0.5000" UnitPrice="0.5000"/>
+            <LineCharges/>
+            <LineTaxes/>
+        </OrderLine>
+		<OrderLine DeliveryMethod="PICK" OrderedQty="1" PrimeLineNo="1"
+            ShipNode="STORE_01400789" SubLineNo="1">
+			<Notes>
+				<Note NoteText="some instructions"/>
+			</Notes>
+			<Item ItemDesc="some description" ItemID="0001570007200"
+                ItemShortDesc="some description" ProductClass="GOOD" UnitOfMeasure="EACH"/>
+			<Extn ExtnCustOrdQty="1" ExtnSubstitutionAllowed="Y"/>
+			<LinePriceInfo IsLinePriceForInformationOnly="N"
+                IsPriceLocked="Y" ListPrice="0.89"
+                PricingQuantityStrategy="FIX" RetailPrice="4.99" UnitPrice="0.89"/>
+			<LineCharges/>
+			<LineTaxes/>
+		</OrderLine>
+    </OrderLines>
+    
+    <PersonInfoShipTo AddressLine1="8751 Harpers Point Dr" City="Cincinnati"
+        Country="US" DayPhone="5139085524" State="OH" ZipCode="45249"/>
+    <PersonInfoBillTo DayPhone="5139085524" EMailID="asish.panda@kroger.com"
+        FirstName="Asish" LastName="Panda"/>
+</Order>
+-- ------------------- MFC PIKCUP ORDER UE OUTPUT ---------------------
+
+<Order Action="CREATE" AuthorizedClient="MASTER-ORDER"
+    BillToID="6a8c86a1-f25b-76f1-7c07-76cb17e1aff5" BypassPricing="Y"
+    DocumentType="0001" DraftOrderFlag="N" EnterpriseCode="KROGER"
+    EntryType="Web" IsShipComplete="N"
+    OrderDate="2019-09-26T15:48:00.832Z" OrderNo="07302019MFC_PICKUP2N"
+    OrderType="B2C" PaymentRuleId="KrgPayOnOrderPickup"
+    SearchCriteria1="PICK" SearchCriteria2="S"
+    SellerOrganizationCode="KROGER_CINCINNATI" ShipNode="STORE_01400789" ValidatePromotionAward="N">
+    <PriceInfo Currency="USD"/>
+    <Extn ExtnAuthStatus="AUTHORIZED"
+        ExtnCustGUID="6a8c86a1-f25b-76f1-7c07-76cb17e1aff5"
+        ExtnCustomerType="REPEAT"
+        ExtnIsModifiableUntil="2019-09-25T23:59:59"
+        ExtnIsTimeslotReserved="Y" ExtnLoyaltyId="415591904390"
+        ExtnOrderDateLocalTime="2019-09-26" ExtnPickUpDate="2019-09-26"
+        ExtnPickUpTimeBegin="19:00:00" ExtnPickUpTimeEnd="20:00:00" ExtnReservationId="bae722b5-a27f-4c82-900e-f85cf2e6aa1b"/>
+    <OrderLines>
+        <OrderLine ConditionVariable1="1.1" DeliveryMethod="PICK"
+            EarliestScheduleDate="2019-09-26T15:48:00.832Z"
+            FulfillmentType="PICK-UP" LineType="PICK" OrderedQty="4"
+            PrimeLineNo="1" ReqDeliveryDate="2019-09-26T23:00:00+00:00"
+            ReqShipDate="2019-09-26T23:00:00+00:00"
+            ShipNode="STORE_01400789" SubLineNo="1">
+            <Item ItemDesc="Pomegranate" ItemID="0003100010101"
+                ItemShortDesc="Pomegranate" ProductClass="GOOD" UnitOfMeasure="EACH"/>
+            <Extn ExtnCustOrdQty="4" ExtnIsTimeslotReserved="Y"
+                ExtnPickUpDate="2019-09-26"
+                ExtnPickUpTimeBegin="19:00:00"
+                ExtnPickUpTimeEnd="20:00:00"
+                ExtnReservationId="bae722b5-a27f-4c82-900e-f85cf2e6aa1b" ExtnSubstitutionAllowed="Y"/>
+            <LinePriceInfo IsLinePriceForInformationOnly="N"
+                IsPriceLocked="Y" PricingQuantityStrategy="FIX"
+                RetailPrice="0.5000" UnitPrice="0.5000"/>
+            <LineCharges/>
+            <LineTaxes/>
+        </OrderLine>
+        <OrderLine ConditionVariable1="1.1" DeliveryMethod="PICK"
+            EarliestScheduleDate="2019-09-26T15:48:00.832Z"
+            FulfillmentType="PICK-UP" LineType="PICK" OrderedQty="1"
+            PrimeLineNo="1" ReqDeliveryDate="2019-09-26T23:00:00+00:00"
+            ReqShipDate="2019-09-26T23:00:00+00:00"
+            ShipNode="STORE_01400789" SubLineNo="1">
+            <Notes>
+                <Note NoteText="some instructions"/>
+            </Notes>
+            <Item ItemDesc="some description" ItemID="0001570007200"
+                ItemShortDesc="some description" ProductClass="GOOD" UnitOfMeasure="EACH"/>
+            <Extn ExtnCustOrdQty="1" ExtnIsTimeslotReserved="Y"
+                ExtnPickUpDate="2019-09-26"
+                ExtnPickUpTimeBegin="19:00:00"
+                ExtnPickUpTimeEnd="20:00:00"
+                ExtnReservationId="bae722b5-a27f-4c82-900e-f85cf2e6aa1b" ExtnSubstitutionAllowed="Y"/>
+            <LinePriceInfo IsLinePriceForInformationOnly="N"
+                IsPriceLocked="Y" ListPrice="0.89"
+                PricingQuantityStrategy="FIX" RetailPrice="4.99" UnitPrice="0.89"/>
+            <LineCharges/>
+            <LineTaxes/>
+        </OrderLine>
+    </OrderLines>
+    <PersonInfoShipTo AddressLine1="8751 Harpers Point Dr"
+        City="Cincinnati" Country="US" DayPhone="5139085524" State="OH" ZipCode="45249"/>
+    <PersonInfoBillTo DayPhone="5139085524"
+        EMailID="asish.panda@kroger.com" FirstName="Asish" LastName="Panda"/>
+    <OrderDates>
+        <OrderDate DateTypeId="KRG_ORDER_RELEASE_DATE" RequestedDate="2019-09-26T16:48:00+00:00"/>
+        <OrderDate DateTypeId="KRG_ORDER_PICKUP_END_DATE" RequestedDate="2019-09-27T00:00:00+00:00"/>
+        <OrderDate DateTypeId="KRG_ORDER_MARSHALL_PICK_DATE" RequestedDate="2019-09-27T00:00:00+00:00"/>
+        <OrderDate DateTypeId="KRG_ORDER_READY_FOR_PICK_EMAIL_DATE" RequestedDate="2019-09-26T21:00:00+00:00"/>
+    </OrderDates>
+</Order>
+
+-- ------------------- WAG PIKCUP ORDER input ---------------------
+<?xml version="1.0" encoding="UTF-8"?>
+<Order Action="CREATE" AuthorizedClient="MASTER-ORDER"
+    BillToID="6a8c86a1-f25b-76f1-7c07-76cb17e1aff5" BypassPricing="Y"
+    DocumentType="0001" DraftOrderFlag="N" EnterpriseCode="KROGER"
+    EntryType="Web" IsShipComplete="N"
+    OrderDate="2019-09-26T10:01:41.832Z" OrderNo="20190926022N"
+    PaymentRuleId="KrgPayOnOrderPickup" SearchCriteria1="PICK"
+    SellerOrganizationCode="KROGER_CINCINNATI" ShipNode="STORE_02609162" ValidatePromotionAward="N">
+    <PriceInfo Currency="USD"/>
+    <Extn ExtnAuthStatus="AUTHORIZED"
+        ExtnCustGUID="6a8c86a1-f25b-76f1-7c07-76cb17e1aff5"
+        ExtnIsTimeslotReserved="Y" ExtnLoyaltyId="415591904390"
+        ExtnPickUpDate="2019-09-26" ExtnPickUpTimeBegin="18:00:00"
+        ExtnPickUpTimeEnd="19:00:00" ExtnReservationId="bae722b5-a27f-4c82-900e-f85cf2e6aa1b"/>
+    <OrderLines>
+        <OrderLine DeliveryMethod="PICK" OrderedQty="10" PrimeLineNo="1"
+            ShipNode="STORE_02609162" SubLineNo="1">
+            <Item ItemDesc="Banana"
+                ItemID="0000000004011"
+                ItemShortDesc="Banana"
+                ProductClass="GOOD" UnitOfMeasure="EACH"/>
+            <Extn ExtnCustOrdQty="1" ExtnSubstitutionAllowed="Y"/>
+            <LinePriceInfo IsLinePriceForInformationOnly="N"
+                IsPriceLocked="Y" PricingQuantityStrategy="FIX"
+                RetailPrice="0.5000" UnitPrice="0.5000"/>
+            <LineCharges/>
+            <LineTaxes/>
+        </OrderLine>
+		<OrderLine DeliveryMethod="PICK" OrderedQty="1" PrimeLineNo="1"
+            ShipNode="STORE_02609162" SubLineNo="1">
+			<Notes>
+				<Note NoteText="some instructions"/>
+			</Notes>
+			<Item ItemDesc="some description" ItemID="0001570007200"
+                ItemShortDesc="some description" ProductClass="GOOD" UnitOfMeasure="EACH"/>
+			<Extn ExtnCustOrdQty="1" ExtnSubstitutionAllowed="Y"/>
+			<LinePriceInfo IsLinePriceForInformationOnly="N"
+                IsPriceLocked="Y" ListPrice="0.89"
+                PricingQuantityStrategy="FIX" RetailPrice="4.99" UnitPrice="0.89"/>
+			<LineCharges/>
+			<LineTaxes/>
+		</OrderLine>
+	</OrderLines>
+    <PersonInfoShipTo AddressLine1="3614 Twin Creek Dr" City="Bellevue"
+        Country="US" DayPhone="2222923992" State="NE" ZipCode="68123"/>
+    <PersonInfoBillTo DayPhone="8885552222" EMailID="Asish.Panda@kroger.com"
+        FirstName="Asish" LastName="Panda"/>
+</Order>
+-- ------------------- WAG PIKCUP ORDER UE OUTPUT ---------------------
+
+
+<Order Action="CREATE" AuthorizedClient="MASTER-ORDER"
+    BillToID="6a8c86a1-f25b-76f1-7c07-76cb17e1aff5" BypassPricing="Y"
+    DocumentType="0001" DraftOrderFlag="N" EnterpriseCode="KROGER"
+    EntryType="Web" IsShipComplete="N"
+    OrderDate="2019-09-26T10:01:41.832Z" OrderNo="20190926022N"
+    OrderType="B2C" PaymentRuleId="KrgPayOnOrderPickup"
+    SearchCriteria1="PICK" SearchCriteria2="S"
+    SellerOrganizationCode="KROGER_CINCINNATI" ShipNode="STORE_02609162" ValidatePromotionAward="N">
+    <PriceInfo Currency="USD"/>
+    <Extn ExtnAuthStatus="AUTHORIZED"
+        ExtnCustGUID="6a8c86a1-f25b-76f1-7c07-76cb17e1aff5"
+        ExtnCustomerType="REPEAT"
+        ExtnIsModifiableUntil="2019-09-25T23:59:59"
+        ExtnIsTimeslotReserved="Y" ExtnLoyaltyId="415591904390"
+        ExtnOrderDateLocalTime="2019-09-26" ExtnPickUpDate="2019-09-26"
+        ExtnPickUpTimeBegin="18:00:00" ExtnPickUpTimeEnd="19:00:00" ExtnReservationId="bae722b5-a27f-4c82-900e-f85cf2e6aa1b"/>
+    <OrderLines>
+        <OrderLine ConditionVariable1="1.1" DeliveryMethod="PICK"
+            EarliestScheduleDate="2019-09-26T10:01:41.832Z"
+            FulfillmentType="PICK-UP" LineType="PICK" OrderedQty="10"
+            PrimeLineNo="1" ReqDeliveryDate="2019-09-26T22:00:00+00:00"
+            ReqShipDate="2019-09-26T22:00:00+00:00"
+            ShipNode="STORE_02609162" SubLineNo="1">
+            <Item ItemDesc="Banana" ItemID="0000000004011"
+                ItemShortDesc="Banana" ProductClass="GOOD" UnitOfMeasure="EACH"/>
+            <Extn ExtnCustOrdQty="10" ExtnIsTimeslotReserved="Y"
+                ExtnPickUpDate="2019-09-26"
+                ExtnPickUpTimeBegin="18:00:00"
+                ExtnPickUpTimeEnd="19:00:00"
+                ExtnReservationId="bae722b5-a27f-4c82-900e-f85cf2e6aa1b" ExtnSubstitutionAllowed="Y"/>
+            <LinePriceInfo IsLinePriceForInformationOnly="N"
+                IsPriceLocked="Y" PricingQuantityStrategy="FIX"
+                RetailPrice="0.5000" UnitPrice="0.5000"/>
+            <LineCharges/>
+            <LineTaxes/>
+            <OrderLineSourcingControls>
+                <OrderLineSourcingCntrl InventoryCheckCode="NOINV"
+                    Node="STORE_02609162"
+                    ReasonText="MFC item will not have inventory at home store"
+                    SuppressNodeCapacity="Y" SuppressProcurement="N"/>
+            </OrderLineSourcingControls>
+        </OrderLine>
+        <OrderLine ConditionVariable1="1.1" DeliveryMethod="PICK"
+            EarliestScheduleDate="2019-09-26T10:01:41.832Z"
+            FulfillmentType="PICK-UP" LineType="PICK" OrderedQty="1"
+            PrimeLineNo="1" ReqDeliveryDate="2019-09-26T22:00:00+00:00"
+            ReqShipDate="2019-09-26T22:00:00+00:00"
+            ShipNode="STORE_02609162" SubLineNo="1">
+            <Notes>
+                <Note NoteText="some instructions"/>
+            </Notes>
+            <Item ItemDesc="some description" ItemID="0001570007200"
+                ItemShortDesc="some description" ProductClass="GOOD" UnitOfMeasure="EACH"/>
+            <Extn ExtnCustOrdQty="1" ExtnIsTimeslotReserved="Y"
+                ExtnPickUpDate="2019-09-26"
+                ExtnPickUpTimeBegin="18:00:00"
+                ExtnPickUpTimeEnd="19:00:00"
+                ExtnReservationId="bae722b5-a27f-4c82-900e-f85cf2e6aa1b" ExtnSubstitutionAllowed="Y"/>
+            <LinePriceInfo IsLinePriceForInformationOnly="N"
+                IsPriceLocked="Y" ListPrice="0.89"
+                PricingQuantityStrategy="FIX" RetailPrice="4.99" UnitPrice="0.89"/>
+            <LineCharges/>
+            <LineTaxes/>
+            <OrderLineSourcingControls>
+                <OrderLineSourcingCntrl InventoryCheckCode="NOINV"
+                    Node="STORE_02609162"
+                    ReasonText="MFC item will not have inventory at home store"
+                    SuppressNodeCapacity="Y" SuppressProcurement="N"/>
+            </OrderLineSourcingControls>
+        </OrderLine>
+    </OrderLines>
+    <PersonInfoShipTo AddressLine1="3614 Twin Creek Dr" City="Bellevue"
+        Country="US" DayPhone="2222923992" State="NE" ZipCode="68123"/>
+    <PersonInfoBillTo DayPhone="8885552222"
+        EMailID="Asish.Panda@kroger.com" FirstName="Asish" LastName="Panda"/>
+    <OrderDates>
+        <OrderDate DateTypeId="KRG_ORDER_RELEASE_DATE" RequestedDate="2019-09-26T11:01:41+00:00"/>
+        <OrderDate DateTypeId="KRG_ORDER_PICKUP_END_DATE" RequestedDate="2019-09-26T23:00:00+00:00"/>
+        <OrderDate DateTypeId="KRG_ORDER_MARSHALL_PICK_DATE" RequestedDate="2019-09-26T23:00:00+00:00"/>
+        <OrderDate DateTypeId="KRG_ORDER_READY_FOR_PICK_EMAIL_DATE" RequestedDate="2019-09-26T20:00:00+00:00"/>
+    </OrderDates>
+</Order>
+
+
+

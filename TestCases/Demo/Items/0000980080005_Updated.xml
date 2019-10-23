@@ -1,0 +1,11 @@
+<ItemList>
+<Item CanUseAsServiceTool="N" ItemGroupCode="PROD" ItemID="0000980080005" OrganizationCode="KROGER_US" UnitOfMeasure="EACH">
+	<PrimaryInformation AllowGiftWrap="Y" AssumeInfiniteInventory="Y" BundleFulfillmentMode="01" BundlePricingStrategy="PARENT" Description="Nutella to Go! Hazelnut Spread + Breadsticks" DisplayItemDescription="Nutella to Go! Hazelnut Spread + Breadsticks" ExtendedDescription="" ExtendedDisplayDescription="Nutella to Go Spread with Breadstick (0000980080005)" ImageID="0000980080005" ImageLabel="0000980080005" ImageLocation="https://www.kroger.com/product/images/thumbnail/front/0000980080005" IsPickupAllowed="Y" IsReturnable="Y" PrimaryEnterpriseCode="KROGER_US" ShortDescription="Nutella to Go! Hazelnut Spread + Breadsticks" Status="3000" TaxableFlag="N" />
+	<InventoryParameters ATPRule="KROGER_DEFAULT_ATP_RULE" InventoryMonitorRule="KROGER_ATP_MONITOR_RULE" />
+	<AssetList TotalNumberOfRecords="1">
+		<Asset AssetID="0000980080005" ContentID="0000980080005" ContentLocation="https://www.kroger.com/product/images/010767602/large/front" Label="0000980080005" Type="Image">
+			<AssetLocaleList TotalNumberOfRecords="0"/>
+		</Asset>
+	</AssetList>
+</Item>
+</ItemList>

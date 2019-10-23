@@ -1,0 +1,13 @@
+Openshift Environment
+1. oms-dev namespace
+2. 
+
+
+1. Create Order ReST URL: 
+https://dev.kroger-oms-on-ocp.us-east.containers.appdomain.cloud/smcfs/order
+POST
+
+2. HTTP API Tester
+https://dev.kroger-oms-on-ocp.us-east.containers.appdomain.cloud/smcfs/yfshttpapi/yantrahttpapitester.jsp
+Service: OrderLoad.createOrder
+
