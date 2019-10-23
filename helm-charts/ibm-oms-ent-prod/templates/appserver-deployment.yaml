@@ -93,6 +93,10 @@ spec:
           valueFrom:
             fieldRef:
               fieldPath: metadata.name
+        - name: OM_POD_IP
+          valueFrom:
+            fieldRef:
+              fieldPath: status.podIP
         - name: OM_RELEASE
           value: {{ .Release.Name }}
         - name: consoleadminpassword
