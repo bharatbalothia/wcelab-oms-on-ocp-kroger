@@ -105,7 +105,7 @@ appserver:
 #      - -verbose:gc
 #      - -Xverbosegclog:/shared/applogs/$(OM_POD_NAME)/gclogs/%Y%m%d.%H%M%S.%pid.txt
     database:
-      maxPoolSize: 50
+      maxPoolSize: 120
       minPoolSize: 10
     corethreads: 20
     maxthreads: 100
