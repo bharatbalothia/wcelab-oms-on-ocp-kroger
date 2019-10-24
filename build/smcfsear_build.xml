@@ -107,7 +107,6 @@
 		<echo> 	Copy the project specific properties to properties folder of APP </echo>
 		<copy todir="${sterling.home}/properties" overwrite="true">
 			<fileset dir="${devhome}/workspace/custom/generic/properties"/>
-			<fileset dir="${devhome}/workspace/custom/specific/${build.env}/properties"/>
 		</copy>
 		<!--Copy extensions-->
 		<echo> 	Copy the project specific extensions to extensions folder of APP </echo>
