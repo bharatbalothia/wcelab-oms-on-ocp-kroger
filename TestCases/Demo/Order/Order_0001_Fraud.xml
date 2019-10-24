@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Order Action="CREATE" AuthorizedClient="MASTER-ORDER"
     DocumentType="0001" DraftOrderFlag="N" EnterpriseCode="KROGER_US"
-    EntryType="Web" IsShipComplete="N"
-    OrderDate="2019-10-16T12:48:00.832Z" OrderNo="Kroger1023201901"
+    EntryType="Web" IsShipComplete="N" OrderType="FRAUD"
+    OrderDate="2019-10-16T12:48:00.832Z" OrderNo="Kroger1023201902"
     PaymentRuleId="KrgPayOnOrderPickup" SearchCriteria1="PICK"
     SellerOrganizationCode="KROGER_CINCINNATI" ShipNode="STORE_01400020">
     <PriceInfo Currency="USD"/>
