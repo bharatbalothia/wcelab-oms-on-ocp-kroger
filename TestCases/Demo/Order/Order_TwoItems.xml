@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Order Action="CREATE" AuthorizedClient="MASTER-ORDER"
     DocumentType="0001" DraftOrderFlag="N" EnterpriseCode="KROGER_US"
-    EntryType="Web" IsShipComplete="N" OrderType="FRAUD"
-    OrderDate="2019-10-16T12:48:00.832Z" OrderNo="Kroger1024201910"
+    EntryType="Web" IsShipComplete="N"
+    OrderDate="2019-10-16T12:48:00.832Z" OrderNo="Kroger1024201903"
     PaymentRuleId="KrgPayOnOrderPickup" SearchCriteria1="PICK"
     SellerOrganizationCode="KROGER_CINCINNATI" ShipNode="STORE_01400020">
     <PriceInfo Currency="USD"/>
@@ -16,6 +16,18 @@
             <LinePriceInfo IsLinePriceForInformationOnly="N"
                 IsPriceLocked="Y" PricingQuantityStrategy="FIX"
                 RetailPrice="1.5000" UnitPrice="1.5000"/>
+            <LineCharges/>
+            <LineTaxes/>
+        </OrderLine>
+        <OrderLine DeliveryMethod="PICK" OrderedQty="10" PrimeLineNo="2"
+            ShipNode="STORE_01400020" SubLineNo="1">
+            <Item ItemDesc="Pomegranate"
+                ItemID="0000000004011"
+                ItemShortDesc="Banana"
+                ProductClass="GOOD" UnitOfMeasure="EACH"/>
+            <LinePriceInfo IsLinePriceForInformationOnly="N"
+                IsPriceLocked="Y" PricingQuantityStrategy="FIX"
+                RetailPrice="1.2900" UnitPrice="1.29"/>
             <LineCharges/>
             <LineTaxes/>
         </OrderLine>

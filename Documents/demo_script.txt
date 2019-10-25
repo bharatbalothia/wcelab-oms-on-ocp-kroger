@@ -4,10 +4,13 @@ Openshift Environment
 
 
 1. Create Order ReST URL: 
-https://dev.kroger-oms-on-ocp.us-east.containers.appdomain.cloud/smcfs/order
+https://dev.kroger-oms-on-ocp.us-east.containers.appdomain.cloud/smcfs/restapi/order
 POST
+Accept: application/xml
+Content-type: application/xml
 
 2. HTTP API Tester
 https://dev.kroger-oms-on-ocp.us-east.containers.appdomain.cloud/smcfs/yfshttpapi/yantrahttpapitester.jsp
 Service: OrderLoad.createOrder
 
+?_loginid=admin&_token==ETw0ixwjZSX8EjwwKXRep4YKd8wx62h7iXddxNqVZSoZSg6mfDTwsCVEpuwB8hrU1

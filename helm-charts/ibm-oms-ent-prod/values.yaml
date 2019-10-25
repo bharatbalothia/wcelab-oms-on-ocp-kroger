@@ -47,6 +47,8 @@ global:
   - yfs.httpOnlyCookie=false 
   - yfs.api.configuration.dump.mode=NONE 
   - yfs.enable.jdbc.tracking=true
+  - xapirest.servlet.authstyle=OPEN
+  - xapirest.servlet.userid=admin
   envs: []
   # Example:
   # envs:
