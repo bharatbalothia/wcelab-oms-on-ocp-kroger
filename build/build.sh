@@ -2,7 +2,7 @@
 sed -i 's/NO_DBVERIFY=false/NO_DBVERIFY=true/g' /opt/ssfs/runtime/properties/sandbox.cfg
 sh ./build_custom.sh
 cd /opt/ssfs/runtime/docker-samples/imagebuild
-./generateImages.sh --MODE=app --EXPORT=true
+./generateImages.sh --MODE=app --EXPORT=true --WAR_FILES=smcfs,sbc
 ./generateImages.sh --MODE=agent --EXPORT=true
 echo PUSH_DOCKERCFG_PATH $PUSH_DOCKERCFG_PATH
 echo "Content of the file $(cat $PUSH_DOCKERCFG_PATH/.dockercfg)"
